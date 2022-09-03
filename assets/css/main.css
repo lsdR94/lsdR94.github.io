@@ -1,1 +1,119 @@
+/* Text */
+h1 {
+    color: #212529;
+    font-size: calc(2.5rem + 1.5vw);
+    text-align: center;
+}
 
+h2 {
+    color: #212529;
+    font-size: calc(1.375rem + 1.5vw);
+    text-align: justify;
+}
+
+h5 {
+    color: #212529;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+p {
+    color: #212529;
+    font-size: 1.375rem;
+    text-align: justify;
+}
+
+#copy{
+    color: white;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    color: #212529;
+    text-decoration: solid;
+
+}
+
+
+#card_link{
+    color: #6c757d;
+    text-decoration: solid; 
+}
+/* Containers */
+.container{
+    margin: auto;
+    padding: 1rem;
+}
+
+#footer{
+    background-color: #212529;
+    padding: 0.5rem;
+
+}
+
+/* Quoting */
+#blockquote_container {
+    background-color: white;
+    border-radius: 0.25rem;
+    border-left: 0.40rem solid #212529;
+    padding: 1rem;
+
+}
+
+blockquote {
+    margin: 0 0 0rem;
+    padding: 0.25rem;
+    font-size: calc(1.375rem);
+    font-style: italic;
+    
+}
+
+figcaption {
+    color: #6c757d;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* STUDIES */
+#study-card {
+    margin-bottom: 1rem;
+    max-width: 540px;
+    border: 0rem;
+}
+
+.study-card-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Research & Projects */
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+
+/* Other stuff */
+#heart{
+    color: red;
+}
+
+/* navbar */
+
+#nav{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nav-item{
+
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+#lsdR94{
+    font-size: 2.5rem;
+}

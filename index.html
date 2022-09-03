@@ -18,8 +18,10 @@
             <aside class="col-12 col-md-3 col-xl-2 p-0 bg-dark flex-shrink-1">
                 <nav class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top" id="sidebar">
                     <div class="text-center p-3">
-                        <img src="https://avatars.githubusercontent.com/u/45667851?v=4" alt="profile picture" class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow">
-                        <a href="#" class="navbar-brand mx-0 font-weight-bold text-nowrap">lsdR94</a>
+                        <img src="https://avatars.githubusercontent.com/u/45667851?v=4" class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow" alt="profile picture" id="profile-pic">
+                        <a href="#bio" class="navbar-brand mx-0 font-weight-bold text-nowrap" id="lsdR94">
+                            <b>lsdR94</b>
+                        </a>
                     </div>
                     <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -27,28 +29,34 @@
                     <div class="collapse navbar-collapse prder-last" id="nav">
                         <ul class="navbar-nav flex-column w-100 justify-content-center">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active"> Bio</a>
+                                <a href="#bio" class="nav-link"> Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Studies</a>
+                                <a href="#studies" class="nav-link">Studies</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Research</a>
+                                <a href="#research" class="nav-link">Research</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Projects</a>
+                                <a href="#projects" class="nav-link">Projects</a>
                             </li>
                         </ul>
                     </div>
-                    <ul class="nav justify-content-center">
+                    <ul class="nav justify-content-center" id="networks">
                         <li class="nav-item">
-                            <a href="https://github.com/lsdR94" class="nav-link text-white"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/lsdR94" class="nav-link text-white">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="www.linkedin.com/in/luisdaniel-rivera-curbelo-55589417a" class="nav-link text-white"><i class="fa fa-linkedin"></i></a>
+                            <a href="www.linkedin.com/in/luisdaniel-rivera-curbelo-55589417a" class="nav-link text-white">
+                                <i class="fa fa-linkedin fa-2x"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="mailto:luisdarc@gmail.com" class="nav-link text-white"><i class="fa fa-envelope"></i></a>
+                            <a href="mailto:luisdarc@gmail.com" class="nav-link text-white">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -56,12 +64,12 @@
             <main class="col px-0 flex-grow-1">
 
                 <!-- My Name -->
-                <div class="container py-3">
-                    <h1><b>LUISDANIEL RIVERA CURBELO</b></h1>
+                <div class="container">
+                    <h1 id="bio"><b>LUISDANIEL RIVERA CURBELO</b></h1>
                 </div>
 
                 <!-- Bio block -->
-                <div class="container py-3">
+                <div class="container">
                     <p>
                         Junior Geoscientist with two years of experience in geoscientific research and data science. I graduated from Geophysics on december of 2019 and I'm 
                         currently developing my Master’s thesis concerning the creation of predictive mathematical models based on seismic attributes and petrophysical parameters.
@@ -72,50 +80,46 @@
                         I'm permanently seeking opportunities to apply my knowledge in geoscience evaluations, both in hydrocarbon exploration and production,
                         the analysis of data volumes for descriptive and interpretative purposes, besides, to keep learning about everything within my grasp!
                     </p>
-                    <h6>After founding what I'm passionate about, I might have understood life a little bit more </h6>
+                    <p>After founding what I'm passionate about, I might have understood life a little bit more </p>
 
                     <!-- Quoting -->
                     <div class="container py-1 h-50">
                         <div class="row d-flex align-items-center h-100">
                         <div class="col col-lg-6 mb-4 mb-lg-0">
-                            <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #a34e78;">
-                            <blockquote class="blockquote pb-2">
-                                <p>
-                                    Tell me and I forget, teach me and I may remember, involve me and I learn.
-                                </p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer mb-0 font-italic">
-                                Benjamin Franklin
-                            </figcaption>
+                            <figure id="blockquote_container">
+                                <blockquote>
+                                    " Tell me and I forget, teach me and I may remember, involve me and I learn. "
+                                </blockquote>
+                                <figcaption>
+                                    — Benjamin Franklin
+                                </figcaption>
                             </figure>
                         </div>
                         <div class="col col-lg-6">
-                            <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #f68e9d;">
-                            <blockquote class="blockquote pb-2">
-                                <p>
-                                    Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.
-                                </p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer mb-0 font-italic">
-                              Henry Ford
-                            </figcaption>
-                          </figure>
+                            <figure id="blockquote_container">
+                                <blockquote>
+                                    " Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. "
+                                </blockquote>
+                                <figcaption>
+                                    — Henry Ford
+                                </figcaption>
+                            </figure>
                         </div>
                       </div>
                     </div>
                 </div>
 
                 <!-- Studies -->
-                <div class="container py-3">
-                    <div class="container py-3">
-                        <h1><b>STUDIES</b></h1>
+                <div class="container">
+                    <div class="container">
+                        <h2 id="studies"><b>STUDIES</b></h2>
                     </div>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3" id="study-card">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/SelloUCV.png" class="img-fluid rounded-start" alt="UCV">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/SelloUCV.png" class="study-card-img" alt="UCV">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -128,10 +132,10 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3" id="study-card">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/SelloUCV.png" class="img-fluid rounded-start" alt="UCV">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/SelloUCV.png" class="study-card-img" alt="UCV">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -145,11 +149,11 @@
                         </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                            <div class="card mb-3" style="max-width: 540px;">
-                                <div class="row g-0">
+                        <div class="col ">
+                            <div class="card mb-3" id="study-card">
+                                <div class="row d-flex align-items-center g-0">
                                     <div class="col-md-4">
-                                        <img src="https://logos-world.net/wp-content/uploads/2021/11/Udemy-Logo.png" class="img-fluid rounded-start" alt="UDEMY">
+                                        <img src="https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og" class="study-card-img" alt="UDEMY">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -162,10 +166,10 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3" id="study-card">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="https://assets.stickpng.com/images/5847f91ccef1014c0b5e48b8.png" class="img-fluid rounded-start" alt="UCV">
+                                        <img src="https://img.icons8.com/windows/512/free-code-camp.png" class="study-card-img" alt="Freecodecamp">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -181,10 +185,64 @@
                 </div>
 
                 <!-- Research -->
-                <div class="container py-3">
-                    <div class="container py-3">
-                        <h1><b>RESEARCH</b></h1>
+                <div class="container">
+                    <div class="container">
+                        <h2 id="research"><b>RESEARCH</b></h2>
                     </div>
+                    
+                    <!--
+                    <div class="row row-cols-1 row-cols-md-1 g-4">
+                        <div class="col">
+                            <div class="card" id="study-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/Research-ML.png" class="study-card-img" alt="Research-ML">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Development of predictive geological models using machine learning to ease hidrocarbon exploration </h5>
+                                            <p class="card-text">
+                                                An analytic investigation which scope is to demonstrate that data science workflows can be used
+                                                to ease Oil & Gas exploration and its nature as a reliable source of geological insights. We plan to
+                                                construct predictive models based on seismic attributes and petrophysical parameters using 
+                                                supervised machine learning algorithms.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Master Thesis - Earth Sciences</small></p>
+                                            <p class="card-text"><small class="text-muted">Status: On going! <3</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="study-card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/Research-PCT.png" class="study-card-img" alt="Research-PCT">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Development of a computational tool for reservoir characterization using prestacked seismic</h5>
+                                            <p class="card-text">
+                                                Development of a Python related computational tool for a rapid evaluation of seismic data, computation of AVO attributes and the extraction of
+                                                AVO anomalies. The code allowed me to validate the gas bearing sands within the Plober Formation, Browse Basin (Australia). The investigation made use
+                                                of the project <b>NW Shelf Australia - Poseidon 3D</b> (under <b>Creative Commons 3.0</b> license) which can be found in the cloud-based portal of 
+                                                <b>Terranubis</b> (dGB Earth Sciences; OpendTect).
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Bachelor Thesis - Geophysical Engineering</small></p>
+                                            <p class="card-text"><small class="text-muted">Status: Finished in 2019</small></p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Presented at: 
+                                                    <a href="https://drive.google.com/file/d/1dfwkVod7Cus6rlkPzJCzRwPaXZu2Xkys/view?usp=sharing" target="_blank">1st SEG LAT (2021)</a>, 
+                                                    <a href="https://drive.google.com/file/d/1La8Bp08jsi89LBAwHIaYAI1js70QoTkp/view?usp=sharing" target="_blank">XVI Venezuelan Geophysical Congress (2021)</a>, 
+                                                    <a href="https://drive.google.com/file/d/1GpC0mzg_2IphkT13CicQ7tNmEA68gdBz/view?usp=sharing" target="_blank">AAPG Geophysical Congress (2020)</a>
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+-->
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
                             <div class="card">
@@ -193,12 +251,27 @@
                                     <h5 class="card-title">Development of predictive geological models using machine learning to ease hidrocarbon exploration </h5>
                                     <p class="card-text">
                                         An analytic investigation which scope is to demonstrate that data science workflows can be used
-                                        to ease Oil & Gas exploration and its nature as a reliable source of geological insights. We plan to
+                                        to ease Oil & Gas exploration and its nature as a reliable source of geological insights. We'll
                                         construct predictive models based on seismic attributes and petrophysical parameters using 
-                                        supervised machine learning algorithms.
+                                        supervised machine learning algorithms. 
+                                        The investigation made use
+                                        of the project <b>OGA MNSH</b> (under <b>Creative Commons 3.0</b> license) which can be found in the cloud-based portal of 
+                                        <b>Terranubis</b> (dGB Earth Sciences; OpendTect).
                                     </p>
                                     <p class="card-text"><small class="text-muted">Master Thesis - Earth Sciences</small></p>
-                                    <p class="card-text"><small class="text-muted">Status: On going! <3</small></p>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Status: On going!
+                                            <i class="fa fa-heart" id="heart"></i>
+                                        </small>
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted"> 
+                                            <a href="https://www.earthdoc.org/content/journals/10.1144/petgeo2019-076?crawler=true#dataandmedia" target="_blank" id="card_link">
+                                                Img. Source
+                                            </a> 
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -217,9 +290,9 @@
                                     <p class="card-text"><small class="text-muted">Status: Finished in 2019</small></p>
                                     <p class="card-text">
                                         <small class="text-muted">Presented at: 
-                                            <a href="https://drive.google.com/file/d/1dfwkVod7Cus6rlkPzJCzRwPaXZu2Xkys/view?usp=sharing" target="_blank">1st SEG LAT (2021)</a>, 
-                                            <a href="https://drive.google.com/file/d/1La8Bp08jsi89LBAwHIaYAI1js70QoTkp/view?usp=sharing" target="_blank">XVI Venezuelan Geophysical Congress (2021)</a>, 
-                                            <a href="https://drive.google.com/file/d/1GpC0mzg_2IphkT13CicQ7tNmEA68gdBz/view?usp=sharing" target="_blank">AAPG Geophysical Congress (2020)</a>
+                                            <a href="https://drive.google.com/file/d/1dfwkVod7Cus6rlkPzJCzRwPaXZu2Xkys/view?usp=sharing" target="_blank" id="card_link">1st SEG LAT (2021)</a>, 
+                                            <a href="https://drive.google.com/file/d/1La8Bp08jsi89LBAwHIaYAI1js70QoTkp/view?usp=sharing" target="_blank" id="card_link">XVI Venezuelan Geophysical Congress (2021)</a>, 
+                                            <a href="https://drive.google.com/file/d/1GpC0mzg_2IphkT13CicQ7tNmEA68gdBz/view?usp=sharing" target="_blank" id="card_link">AAPG Geophysical Congress (2020)</a>
                                         </small>
                                     </p>
                                 </div>
@@ -239,7 +312,7 @@
                                     <p class="card-text"><small class="text-muted">Status: Finished in 2018</small></p>
                                     <p class="card-text">
                                         <small class="text-muted">Presented at: 
-                                            <a href="https://drive.google.com/file/d/17_3mQH5_RixziDDamwInGBA3XXTqiPJo/view?usp=sharing" target="_blank">Jifi 2018</a>
+                                            <a href="https://drive.google.com/file/d/17_3mQH5_RixziDDamwInGBA3XXTqiPJo/view?usp=sharing" target="_blank" id="card_link">Jifi (2018)</a>
                                         </small>
                                     </p>
                                 </div>
@@ -249,9 +322,9 @@
                 </div>
 
                 <!-- Projects -->
-                <div class="container py-3">
-                    <div class="container py-3">
-                        <h1><b>PROJECTS</b></h1>
+                <div class="container">
+                    <div class="container">
+                        <h2 id="projects"><b>PROJECTS</b></h2>
                     </div>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
@@ -268,7 +341,14 @@
                                         regressions and the construction of cross plots for the visualization and extraction of amplitude
                                         anomalies.
                                     </p>
-                                    <p class="card-text"><small class="text-muted">Status: On going! <3</small></p>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Status: On going! 
+                                            <i class="fa fa-heart" id="heart"></i>
+                                        </small>
+                                    </p>
+                                    <a href="https://github.com/lsdR94/Prestack_characterization_tool">
+                                        <i class="fa fa-github fa-2x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -277,10 +357,10 @@
 
                 <!--  Footer  -->
                 <footer>
-                    <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
-                        <p>
-                            Made with love by lsdR94
-                            <i class="fa fa-heart" style="font-size:24px;color:red"></i>
+                    <div class="container-fluid" id="footer">
+                        <p id="copy">
+                            <b>Made with love by lsdR94</b>
+                            <i class="fa fa-heart" id="heart"></i>
                         </p> 
                     </div>
                 </footer>

@@ -107,19 +107,38 @@ figcaption {
 
 /* navbar */
 
-#nav{
+#sidebar{
+
+}
+
+#profile-pic{
+
+}
+
+#lsdR94{
+    font-size: calc(1rem + 1vw);
+}
+
+/*
+#nav {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
+*/
 .nav-item{
+
+}
+
+
+#cv-button {
+
+}
+
+#networks{
 
 }
 
 .nav-link{
     font-size: calc(0.6rem + 0.6vw);
-}
-
-#lsdR94{
-    font-size: calc(1rem + 1vw);
 }

@@ -43,7 +43,7 @@ a {
 }
 /* Containers */
 .container{
-    margin: auto;
+    margin: 1vw; /* auto */
     padding: 1rem;
 }
 
@@ -88,10 +88,24 @@ figcaption {
     height: auto;
 }
 
-#petrel{
+#udemy {
+   
+}
+
+#fcc{
+
+}
+
+#petrel {
     max-width: 75%;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#sovg {
+    max-width: 88%;
+    margin-left: 6%;
 }
 
 /* Research & Projects */
@@ -112,27 +126,30 @@ figcaption {
 }
 
 #profile-pic{
-
+    margin-top: 11vh;
 }
 
 #lsdR94{
     font-size: calc(1rem + 1vw);
 }
 
-/*
+
 #nav {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
-*/
+
 .nav-item{
 
 }
 
 
 #cv-button {
-
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 #networks{

@@ -141,7 +141,7 @@ figcaption {
 
 
 .nav-item{
-
+    padding: 0%;
 }
 
 
@@ -150,7 +150,7 @@ figcaption {
     margin-bottom: 1vh;
     padding-left: 1vw;
     padding-right: 1vw;
-    font-size: calc(0.6rem + 0.6vw);
+    font-size: calc(0.5rem + 0.5vw);
 }
 
 #networks{

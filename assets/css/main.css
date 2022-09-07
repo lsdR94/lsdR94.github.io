@@ -43,7 +43,7 @@ a {
 }
 /* Containers */
 .container{
-    margin: 1vw; /* auto */
+    margin: auto;
     padding: 1rem;
 }
 
@@ -126,7 +126,7 @@ figcaption {
 }
 
 #profile-pic{
-    margin-top: 11vh;
+    margin-top: 10vh;
 }
 
 #lsdR94{
